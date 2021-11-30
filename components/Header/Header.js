@@ -82,7 +82,7 @@ export default function Header({user}) {
 
       <Menu.Item key="1" className="flex itemcenter rad8 u-pad-vertical-s">
         <Link
-          to={
+          href={
             Cookies.get("user") &&
             Cookies.get("user").role == "CLIENT"
               ? "/myspace"
@@ -184,7 +184,7 @@ export default function Header({user}) {
             </li>
             <li className="fs14 fs12res av-medium u-mar-right-m cursor nomarres">
               <Link href="/sign/register">
-                <a className="coltext">S&aposINSCRIRE</a>
+                <a className="coltext">{`S'INSCRIRE`}</a>
               </Link>{" "}
             </li>
             <li className="nonedisplayres">

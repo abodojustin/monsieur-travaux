@@ -91,7 +91,7 @@ export default function Footer() {
               </Link>
               <Link href="/cgu">
                 <a>
-                <i className="triangle gris"></i>Conditions d&aposutilisation
+                <i className="triangle gris"></i>{`Conditions d'utilisation`}
                 </a>
               </Link>
               <Link href="/faq">
@@ -125,7 +125,7 @@ export default function Footer() {
                 href="https://s3.eu-central-1.amazonaws.com/www.monsieurtravaux.ci/FICHE_ABONNEMENT_Monsieurtravaux.pdf"
                 //target="_blank"
               >
-                <i className="triangle gris"></i>Fiche d&aposabonnement
+                <i className="triangle gris"></i>{`Fiche d'abonnement`}
               </a>
               <Link href="/charte">
                 <a>
